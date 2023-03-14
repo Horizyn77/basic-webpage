@@ -4,7 +4,7 @@ body {
 }
 
 .container {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -74,19 +74,12 @@ li {
 @media (min-width: 960px) {
     .main {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
+        gap: 30px;
     }
 
     .main h1 {
-        position: relative;
-        top: 40px;
-        left: 100px;
-        margin-left: -50px;
-    }
-
-    .main img {
-        margin-left: -100px;
-        margin-right: 40px;
+        margin-top: 70px;
     }
 
     .historic-places {
@@ -140,5 +133,5 @@ li {
   .box-2 {
     flex-direction: row-reverse;
     gap: 18px;
-}
+    }
 }
