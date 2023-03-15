@@ -54,7 +54,7 @@ td {
 }
 
 table {
-    width: 80%;
+    width: 100%;
 }
 
 ul {
@@ -68,7 +68,12 @@ li {
 }
 
 .hist-heading {
-    margin-bottom: 0;
+    margin-bottom: 6px;
+    margin-top: 30px;
+}
+
+p {
+    margin: 30px 0;
 }
 
 @media (min-width: 960px) {
@@ -99,13 +104,8 @@ li {
     }
  
     .city p {
-        max-width: 66ch;
         margin-left: 30px;
         margin-top: 0;
-    }
-
-    h2 + p {
-        max-width: 102ch;
     }
 }
 
@@ -131,6 +131,7 @@ li {
   }
 
   .box-2 {
+
     flex-direction: row-reverse;
     gap: 18px;
     }
