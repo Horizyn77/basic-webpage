@@ -1,0 +1,192 @@
+body {
+    line-height: 22px;
+}
+
+h1, h2, li, th, td, p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1, h2, th {
+    color: #262626;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+p, li {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+p, li, td {
+    color: #585858;
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    font-size: 20px;
+}
+
+td, th {
+    padding: 2px;
+}
+
+td {
+    text-align: center;
+    font-size: 18px;
+}
+
+.main img {
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+}
+
+.city img {
+    width: 260px;
+    height: 150px;
+    border-radius: 4px;
+}
+
+.city .col-8 {
+    margin-top: 8px;
+    margin-right: 0;
+    min-height: initial;
+}
+
+.historic-places img {
+    width: 100px;
+    height: 160px;
+    border-radius: 4px;
+}
+
+table {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0 10px 0 0;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 4px;
+}
+
+.historic-places .col-4 {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.hist-heading {
+    margin-bottom: -20px;
+}
+
+table {
+    width: 100%;
+}
+
+div.col-4.city-image {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+p.col-8 {
+    margin-left: 0 !important;
+}
+
+.main {
+    margin-bottom: 36px;
+}
+
+@media (max-width: 959px) {
+    .city {
+        margin-left: 0x;
+    }
+
+    .city img {
+        width: 100%;
+    }
+
+    /* .city .col-8 {
+        margin-left: 8px;
+    } */
+
+    .hist-heading {
+        margin-bottom: -20px;
+    }
+
+    .main .heading {
+        position: relative;
+        left: 22.5%;
+    }
+
+    .main img {
+        position: relative;
+        left: 32.5%;
+    }
+}
+
+@media only screen and (min-width: 60em) {
+    .container {
+        width: 90%;
+        max-width: initial;
+    }
+}
+
+@media only screen and (min-width: 45em) {
+    /* .col-4 {
+        width: 33%;
+    } */
+
+    /* .col-4.city-image {
+        width: 29.33% !important;
+    } */
+
+    p.col-8 {
+        width: 70%;
+    }
+}
+
+@media (min-width: 721px) and (max-width: 959px) {
+    .main .heading {
+        position: relative;
+        top: 40px;
+        left: 200px;
+    }
+}
+
+@media (min-width: 960px) {
+    /* .col-4.city-image {
+        width: 29.33% !important;
+    } */
+
+    .main .heading {
+        position: relative;
+        top: 40px;
+        left: 200px;
+    }
+    
+    .main img {
+        position: relative;
+        left: 60px;
+        top: 10px;
+    }
+
+    .col-9 {
+        margin-left: 26px;
+    }
+}
+
+@media (min-width: 1110px) {
+    p.col-9 {
+        margin-top: 0;
+    }
+}
